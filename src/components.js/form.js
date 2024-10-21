@@ -4,7 +4,7 @@ import PHONE from '../assets/phone.svg';
 
 const form = () => {
   return (
-    <div class="bg-white relative bg-cover z-[-2] pb-40">
+    <div class="bg-white relative bg-cover z-[0] pb-40">
     <div class="w-full pt-40 px-5">
       <div>
           <img src={SUC} class="absolute top-0 right-2 z-[-1] overflow-hidden "alt="logo" />
@@ -21,12 +21,12 @@ const form = () => {
                       <p class="pb-6 text-slate-600 font-medium text-2xl">Start With Your Free Account Today </p>
                     </div>
                   </div>
-                  <div class="w-full">
+                  <div class="w-full ">
                   <form>
                   <div class="w-full mx-auto">
                     <div class="flex flex-col justify-between gap-5">
                       <div class="w-full">
-                        <input type="textvvv" placeholder="Username" class="py-3  rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="text" placeholder="Username" class="py-3  rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                       <div class="w-full">
                         <input type="text" placeholder="Phone number" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
@@ -34,10 +34,10 @@ const form = () => {
                     </div>
                     <div class="flex flex-col md:flex-row justify-between gap-5 mt-4">
                       <div class="w-full md:w-1/2">
-                        <input type="email" placeholder="Business-Email" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="email" placeholder="Business-Email" class="py-3 rounded-md px-2 w-full bg-gray-200 "/>
                       </div>
                       <div class="w-full md:w-1/2">
-                        <input type="text" placeholder="Company-Name" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="text" placeholder="Company-Name" class="py-3 rounded-md px-2 w-full bg-gray-200 "/>
                       </div>
                     </div>
                     <div class="flex flex-col md:flex-row justify-between gap-5 mt-4">
