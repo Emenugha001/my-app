@@ -29,7 +29,7 @@ const form = () => {
                         <input type="text" placeholder="Username" class="py-3  rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                       <div class="w-full">
-                        <input type="text" placeholder="Phone number" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="tel" placeholder="Phone number" pattern="[0-10]{11}" maxlength="11" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                     </div>
                     <div class="flex flex-col md:flex-row justify-between gap-5 mt-4">
@@ -42,15 +42,15 @@ const form = () => {
                     </div>
                     <div class="flex flex-col md:flex-row justify-between gap-5 mt-4">
                       <div class="w-full md:w-1/2">
-                        <input type="email" placeholder="Password" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="password" placeholder="Password" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                       <div class="w-full md:w-1/2">
-                        <input type="text" placeholder="Confirm-password" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="password" placeholder="Confirm-password" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                     </div>
                     <div class="flex flex-col justify-between gap-5 mt-4">
                       <div class="w-full">
-                        <input type="email" placeholder="How did you hear about us" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
+                        <input type="text" placeholder="How did you hear about us" class="py-3 rounded-md px-2 w-full bg-gray-200"/>
                       </div>
                     </div>
                     <div>
